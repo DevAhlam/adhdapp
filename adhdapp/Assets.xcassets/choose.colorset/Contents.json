@@ -10,11 +10,24 @@
           "red" : "0xC6"
         }
       },
-      "display-gamut" : "sRGB",
       "idiom" : "universal"
     },
     {
-      "display-gamut" : "display-P3",
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "255",
+          "green" : "255",
+          "red" : "255"
+        }
+      },
       "idiom" : "universal"
     }
   ],

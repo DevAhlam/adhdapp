@@ -5,16 +5,20 @@
         "color-space" : "srgb",
         "components" : {
           "alpha" : "1.000",
-          "blue" : "0xC5",
-          "green" : "0xEB",
-          "red" : "0xC6"
+          "blue" : "0xED",
+          "green" : "0xFA",
+          "red" : "0xF2"
         }
       },
-      "display-gamut" : "sRGB",
       "idiom" : "universal"
     },
     {
-      "display-gamut" : "display-P3",
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
       "idiom" : "universal"
     }
   ],
