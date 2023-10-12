@@ -8,17 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		F003B5BE2ACE95D10093CE2F /* adhdappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003B5BD2ACE95D10093CE2F /* adhdappApp.swift */; };
-		F003B5C02ACE95D10093CE2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003B5BF2ACE95D10093CE2F /* ContentView.swift */; };
+		F003B5C02ACE95D10093CE2F /* munjez.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003B5BF2ACE95D10093CE2F /* munjez.swift */; };
 		F003B5C22ACE95D20093CE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F003B5C12ACE95D20093CE2F /* Assets.xcassets */; };
 		F003B5C52ACE95D20093CE2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F003B5C42ACE95D20093CE2F /* Preview Assets.xcassets */; };
+		F01E15B42AD04122007995CF /* MyFonts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F01E15B32AD04122007995CF /* MyFonts.ttf */; };
+		F07ABC3A2AD7509A00CE4A95 /* SecletButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07ABC392AD7509A00CE4A95 /* SecletButton2.swift */; };
+		F0BF081B2AD68E6800DD1B75 /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BF081A2AD68E6800DD1B75 /* SelectButton.swift */; };
+		F0F6C0CC2AD5D6DE009EDDAF /* choosePets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F6C0CB2AD5D6DE009EDDAF /* choosePets.swift */; };
+		F0F6C0CE2AD5D890009EDDAF /* SelectTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F6C0CD2AD5D890009EDDAF /* SelectTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F003B5BA2ACE95D10093CE2F /* adhdapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adhdapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F003B5BD2ACE95D10093CE2F /* adhdappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adhdappApp.swift; sourceTree = "<group>"; };
-		F003B5BF2ACE95D10093CE2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F003B5BF2ACE95D10093CE2F /* munjez.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = munjez.swift; sourceTree = "<group>"; };
 		F003B5C12ACE95D20093CE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F003B5C42ACE95D20093CE2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F01E15B22AD03E9F007995CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F01E15B32AD04122007995CF /* MyFonts.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyFonts.ttf; sourceTree = "<group>"; };
+		F07ABC392AD7509A00CE4A95 /* SecletButton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecletButton2.swift; sourceTree = "<group>"; };
+		F0BF081A2AD68E6800DD1B75 /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
+		F0F6C0CB2AD5D6DE009EDDAF /* choosePets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choosePets.swift; sourceTree = "<group>"; };
+		F0F6C0CD2AD5D890009EDDAF /* SelectTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +62,15 @@
 		F003B5BC2ACE95D10093CE2F /* adhdapp */ = {
 			isa = PBXGroup;
 			children = (
+				F01E15AF2AD03DF2007995CF /* fonts */,
 				F003B5BD2ACE95D10093CE2F /* adhdappApp.swift */,
-				F003B5BF2ACE95D10093CE2F /* ContentView.swift */,
+				F003B5BF2ACE95D10093CE2F /* munjez.swift */,
+				F0F6C0CB2AD5D6DE009EDDAF /* choosePets.swift */,
+				F0F6C0CD2AD5D890009EDDAF /* SelectTask.swift */,
+				F0BF081A2AD68E6800DD1B75 /* SelectButton.swift */,
+				F07ABC392AD7509A00CE4A95 /* SecletButton2.swift */,
 				F003B5C12ACE95D20093CE2F /* Assets.xcassets */,
+				F01E15B22AD03E9F007995CF /* Info.plist */,
 				F003B5C32ACE95D20093CE2F /* Preview Content */,
 			);
 			path = adhdapp;
@@ -65,6 +82,14 @@
 				F003B5C42ACE95D20093CE2F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F01E15AF2AD03DF2007995CF /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F01E15B32AD04122007995CF /* MyFonts.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +152,7 @@
 			files = (
 				F003B5C52ACE95D20093CE2F /* Preview Assets.xcassets in Resources */,
 				F003B5C22ACE95D20093CE2F /* Assets.xcassets in Resources */,
+				F01E15B42AD04122007995CF /* MyFonts.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F003B5C02ACE95D10093CE2F /* ContentView.swift in Sources */,
+				F0F6C0CC2AD5D6DE009EDDAF /* choosePets.swift in Sources */,
+				F003B5C02ACE95D10093CE2F /* munjez.swift in Sources */,
+				F0BF081B2AD68E6800DD1B75 /* SelectButton.swift in Sources */,
+				F0F6C0CE2AD5D890009EDDAF /* SelectTask.swift in Sources */,
+				F07ABC3A2AD7509A00CE4A95 /* SecletButton2.swift in Sources */,
 				F003B5BE2ACE95D10093CE2F /* adhdappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +299,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"adhdapp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = adhdapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +328,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"adhdapp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = adhdapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -7,12 +7,42 @@
 
 import SwiftUI
 
-struct SecletButton2: View {
+struct SelectButton2: View {
+    
+    @Binding var isSelected : Bool
+    @State  var image2 :Image
+    @State var color :Color
+  
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+       
+        ZStack{
+          
+            
+            
+            Rectangle()
+                .frame(width: 250,height: 250)
+                .foregroundColor(isSelected ? color : .white)
+                .cornerRadius(45)
+                .shadow(radius:10)
+        
+            image2
+                .resizable()
+                .frame(width: 190 ,height: 190)
+            
+        }
+        
+        
     }
+
+    
 }
 
-#Preview {
-    SecletButton2()
-}
+struct SelectButton2_Previews : PreviewProvider {
+    static var previews : some View {
+
+        SelectButton2(isSelected: .constant(false),  image2:Image("custom-image") ,color : .orange)
+       
+    }}
